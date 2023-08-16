@@ -1,9 +1,9 @@
 import { TestBannersView } from "./TestBannersView";
 import { TestCardsView } from "./TestCardsView";
 import { Menu } from "./Menu";
-import {ThemeProvider, ThemeToggle} from '@pix0/core-ui';
+import {ThemeProvider, ThemeToggle, Button} from '@pix0/core-ui';
 import { useState } from "react";
-import { Button } from "@pix0/core-ui";
+import Tsw from "./Tsw";
 
 export enum ViewType {
 
@@ -53,6 +53,10 @@ export function TestView () {
                 e.preventDefault();
                 setViewType(ViewType.NONE)
             }} className="bg-gray-700 text-white px-2 text-sm font-bold ml-4">Back</Button>}
+            <Tsw checked={false} onChange={()=>{
+                
+            }}/>
+            
         </div>
         {switchView()}
         </div>
