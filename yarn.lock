@@ -1640,10 +1640,10 @@
     fastq "^1.6.0"
 
 "@pix0/core-ui@../pix0-core-ui":
-  version "1.1.5"
+  version "1.1.6"
 
 "@pix0/sfw-ui@../pix0-sfw-ui":
-  version "1.0.9"
+  version "1.1.2"
   dependencies:
     "@pix0/core-ui" "../pix0-core-ui"
 
